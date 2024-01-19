@@ -57,3 +57,17 @@ nav li {
     object-fit: cover;
     object-position: top;
 }
+
+footer {
+    background-image: url('../images/footer-bg.jpg');
+    color: white;
+    padding: 2rem 0;
+    overflow: hidden;
+}
+
+.footer-logo {
+    position: absolute;
+    top: -17%;
+    right: 0%;
+    width: 85%;
+}
