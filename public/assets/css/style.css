@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0282F9;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.jumbo {
+    width: 100%;
+}
+
+.jumbo img {
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.comics-wrapper {
+    background-color: #1C1C1C;
+    padding: 3rem 0;
+}
+
+.comic-card {
+    width: calc(100% / 6 - 2rem);
+    margin: 0 1rem;
+    color: white;
+
+
+}
+
+.comic-card img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: top;
+}
